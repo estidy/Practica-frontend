@@ -1,0 +1,124 @@
+{
+  "config": {
+    "combustibles": {
+      "generacion": ["Carbón Mineral", "Fuel Oil", "Gas Natural", "Gas Oil", "Otros (Sin Emisión CO₂)"],
+      "emisiones": ["Carbón Mineral", "Fuel Oil", "Gas Natural", "Gas Oil"]
+    },
+    "unidades": {
+      "generacion": "GWh",
+      "emisiones": "MM ton CO₂",
+      "factor_emision": "ton CO₂/MWh",
+      "huella_carbono": "ton CO₂"
+    }
+  },
+  "anios": {
+    "2022": {
+      "generacion": {
+        "total": 145057,
+        "datos": {
+          "Carbón Mineral": 1518,
+          "Fuel Oil": 4405,
+          "Gas Natural": 64668,
+          "Gas Oil": 11072,
+          "Otros (Sin Emisión CO₂)": 63394
+        }
+      },
+      "emisiones": {
+        "total": 40,
+        "datos": {
+          "Carbón Mineral": 1.81,
+          "Fuel Oil": 3.53,
+          "Gas Natural": 27.70,
+          "Gas Oil": 6.57
+        }
+      },
+      "factor_emision": 0.273,
+      "huella_carbono": {
+        "total": 69117,
+        "Energía Renovable": 14423,
+        "Energía No Renovable": 253176
+      }
+    },
+    "2023": {
+      "generacion": {
+        "total": 147638,
+        "datos": {
+          "Carbón Mineral": 1004,
+          "Fuel Oil": 2564,
+          "Gas Natural": 63589,
+          "Gas Oil": 5779,
+          "Otros (Sin Emisión CO₂)": 74703
+        }
+      },
+      "emisiones": {
+        "total": 34,
+        "datos": {
+          "Carbón Mineral": 1.22,
+          "Fuel Oil": 2.14,
+          "Gas Natural": 27.14,
+          "Gas Oil": 3.51
+        }
+      },
+      "factor_emision": 0.230,
+      "huella_carbono": {
+        "total": 53928,
+        "Energía Renovable": 18130,
+        "Energía No Renovable": 234471
+      }
+    },
+    "2024": {
+      "generacion": {
+        "total": 146418,
+        "datos": {
+          "Carbón Mineral": 479,
+          "Fuel Oil": 902,
+          "Gas Natural": 69645,
+          "Gas Oil": 4267,
+          "Otros (Sin Emisión CO₂)": 71125
+        }
+      },
+      "emisiones": {
+        "total": 33,
+        "datos": {
+          "Carbón Mineral": 0.59,
+          "Fuel Oil": 0.74,
+          "Gas Natural": 29.45,
+          "Gas Oil": 2.55
+        }
+      },
+      "factor_emision": 0.228,
+      "huella_carbono": {
+        "total": 49273,
+        "Energía Renovable": 39402,
+        "Energía No Renovable": 216110
+      }
+    },
+    "2025": {
+      "generacion": {
+        "total": 61465,
+        "datos": {
+          "Carbón Mineral": 197,
+          "Fuel Oil": 68,
+          "Gas Natural": 34016,
+          "Gas Oil": 392,
+          "Otros (Sin Emisión CO₂)": 26793
+        }
+      },
+      "emisiones": {
+        "total": 15,
+        "datos": {
+          "Carbón Mineral": 0.24,
+          "Fuel Oil": 0.06,
+          "Gas Natural": 14.02,
+          "Gas Oil": 0.26
+        }
+      },
+      "factor_emision": 0.237,
+      "huella_carbono": {
+        "total": 20235,
+        "Energía Renovable": 28230,
+        "Energía No Renovable": 85381
+      }
+    }
+  }
+}
